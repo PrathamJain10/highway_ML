@@ -8,7 +8,7 @@ from PIL import Image
 import io
 
 class LaneDetectionSystem:
-    def _init_(self):
+    def __init__(self):
         # Parameters for lane detection
         self.gaussian_blur_kernel = 5
         self.canny_low_threshold = 50

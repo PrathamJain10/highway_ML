@@ -325,5 +325,5 @@ def main():
         4. Download the processed image
         """)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
